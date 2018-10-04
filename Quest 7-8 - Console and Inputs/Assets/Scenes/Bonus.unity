@@ -366,7 +366,7 @@ MonoBehaviour:
   goalX: 2
   goalY: 4
   minX: -4
-  maxX: 0
+  maxX: 3
   minY: -4
   maxY: 4
   PlayerAvatar: {fileID: 509708616}

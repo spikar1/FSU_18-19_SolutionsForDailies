@@ -58,15 +58,10 @@ public class CharacterMover_Bonus : MonoBehaviour {
 
         if (IsOutOfBounds())
         {
-            if (!wrapAround)
-            {
-                x = lastX;
-                y = lastY;
-            }
-            else
-            {
-                
-            }
+            
+            x = lastX;
+            y = lastY;
+            
         }
 
         ValidatePosition();
